@@ -2550,7 +2550,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__thumb a::before {
     display: block;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.2);
     content: "";
     opacity: 0;
     visibility: hidden;
@@ -2564,30 +2564,29 @@ html.no-csstransitions .home-content__main {
     z-index: 1;
 }
 
-.item-folio__thumb a::after {
-    content: "+";
-    font-family: georgia, serif;
-    font-size: 2.7rem;
-    display: block;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    margin-left: -15px;
-    margin-top: -15px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.8);
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    -webkit-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    transform: scale(0.5);
-    z-index: 1;
-}
+    .item-folio__thumb a::after {
+        font-family: georgia, serif;
+        font-size: 2.7rem;
+        display: block;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        margin-left: -15px;
+        margin-top: -15px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.8);
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        -webkit-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        transform: scale(0.5);
+        z-index: 1;
+    }
 
 .item-folio__text {
     position: absolute;
